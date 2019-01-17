@@ -75,18 +75,18 @@ connections:
 
   mysql:
     arunit:
-      username: rails
+      username: travis
       encoding: utf8
     arunit2:
-      username: rails
+      username: travis
       encoding: utf8
 
   mysql2:
     arunit:
-      username: rails
+      username: travis
       encoding: utf8
     arunit2:
-      username: rails
+      username: travis
       encoding: utf8
 
   openbase:
