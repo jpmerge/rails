@@ -8,9 +8,6 @@ before_script:
   - bundle update
 cache: bundler
 rvm:
-  - 1.9.3
-  - 2.0.0
-  - 2.1
   - 2.2.10
   - 2.3.8
   - ruby-head
@@ -19,8 +16,6 @@ env:
   - "GEM=ap,am,amo,as,av"
   - "GEM=ar:mysql"
   - "GEM=ar:mysql2"
-  - "GEM=ar:sqlite3"
-  - "GEM=ar:postgresql"
 matrix:
   allow_failures:
     - rvm: ruby-head
