@@ -16,6 +16,8 @@ env:
   - "GEM=ap,am,amo,as,av"
   - "GEM=ar:mysql"
   - "GEM=ar:mysql2"
+  - "GEM=ar:sqlite3"
+  - "GEM=ar:postgresql"
 matrix:
   allow_failures:
     - rvm: ruby-head
